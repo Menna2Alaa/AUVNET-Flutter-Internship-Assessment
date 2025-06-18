@@ -1,4 +1,5 @@
 // custome_restaurants.dart
+import 'package:e_commerce_app/widgets/custome_button.dart';
 import 'package:e_commerce_app/widgets/custome_text.dart';
 import 'package:e_commerce_app/widgets/services_and_restaurnts_items.dart';
 import 'package:e_commerce_app/models/restaurant_model.dart';
@@ -160,22 +161,11 @@ class CustomeRestaurants extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               height: 50,
-              child: ElevatedButton(
-                onPressed: () {
+              child: CustomeButton(
+                onTap: () {
                   Navigator.pop(context);
                 },
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xff8900FE),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                ),
-                child: CustomeText(
-                  text: 'View Menu',
-                  textColor: Colors.white,
-                  font: FontWeight.bold,
-                  fontSize: 16,
-                ),
+                text: 'View',
               ),
             ),
           ],
