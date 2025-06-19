@@ -67,7 +67,7 @@ Follow these steps to get the project running locally:
 
 ### 1. Clone the Repository
 
-git clone https://github.com/your-username/e_commerce_app.git
+git clone [(https://github.com/Menna2Alaa/AUVNET-Flutter-Internship-Assessment.git)]
 cd e_commerce_app
 ```
 ```
